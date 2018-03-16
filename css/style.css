@@ -1,14 +1,13 @@
-* {
+body {
   background-color: black;
-  font-family: Verdana;
-}
-
-.center {
   text-align: center;
+  font-family: "Verdana", sans-serif;
+  color: white;
 }
 
-h1, h2 {
-  color: white;
+.cta {
+  color: aquamarine;
+  font-size: 16px;
 }
 
 h1 {
@@ -18,19 +17,13 @@ h1 {
 
 h2 {
   font-size: 42px;
-  font-weight: 300;
-}
-
-h4 {
-  color: aquamarine;
-  font-size: 16px;
 }
 
 p {
-  color: grey;
   font-size: 21px;
+  color: gray;
 }
 
-.copyright {
+.footer {
   text-align: right;
 }
